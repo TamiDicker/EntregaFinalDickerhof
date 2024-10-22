@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TyS - Travel Blog </title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <h1>TyS Paquetes Turisticos
+
+            </h1>
+        </div>
+    </header>
+    <main class="main">
+        <section class="container">
+            <h2 class="titulo">Paquetes</h2>
+            <div class="productos" id="productos">
+            </div>
+        </section>
+        <section class="container">
+            <h2 class="titulo">Carrito</h2>
+            <div class="carrito">
+                <div id="carrito-vacio">
+                    <h4>Tu carrito está vacío.</h4>
+                </div>
+                <div class="carrito-productos d-none" id="carrito-productos">
+                </div>
+                <div class="carrito-total">
+                    <h2>Total: <span id="carrito-total">$0</span></h2>
+                </div> 
+
+
+                <div id="button-container"></div>
+
+
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>TyS Travel Blog - Tamara Dickerhof </p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

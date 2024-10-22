@@ -1,0 +1,44 @@
+[
+    {
+        "id": "paquete-01",
+        "titulo": "Paquete 01",
+        "descripcion": "Visita guiada por la ciudad de Budapest",
+        "precio": 25000,
+        "img": "./img/01.jpg"
+    },
+    {
+        "id": "paquete-02",
+        "titulo": "Paquete 02",
+        "descripcion": "Acceso a los Baños termales de Széchenyi",
+        "precio": 15000,
+        "img": "./img/02.jpg"
+    },
+    {
+        "id": "paquete-03",
+        "titulo": "Paquete 03",
+        "descripcion": "City tour por la ciudad de los Dragones Salzburg",
+        "precio": 25000,
+        "img": "./img/03.jpg"
+    },
+    {
+        "id": "paquete-04",
+        "titulo": "Paquete 04",
+        "descripcion": "Visita el Douomo de Milan y sus alrededores",
+        "precio": 45000,
+        "img": "./img/04.jpg"
+    },
+    {
+        "id": "paquete-05",
+        "titulo": "Paquete 05",
+        "descripcion": "Embarcate en los canales de Venecia",
+        "precio": 23000,
+        "img": "./img/05.jpg"
+    },
+    {
+        "id": "paquete-06",
+        "titulo": "Paquete 06",
+        "descripcion": "Recorre los puentes de la ciudad de los dragones- Salzburg",
+        "precio": 15000,
+        "img": "./img/06.jpg"
+    }
+]
